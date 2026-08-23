@@ -1,6 +1,9 @@
 
 #   Tabs - Ek screen multiple pages jaisa Feel 
 
+import streamlit as st 
+
+
 """ socho tumhare paas 3 alag sections hain (jaise "Home", "About", "Contact") lekin
  tum unhe ek hi page pe tabs mein dikhana chahte ho:   """
 
