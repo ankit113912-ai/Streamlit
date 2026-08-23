@@ -21,7 +21,7 @@ st.subheader("Simple Table ")
 st.table(data)                     # Static Table - simple dhikata hai , interactive nahi 
 
 
-""" st.dataframe() → Interactive (sort/scroll kar sakte ho) — isko zyada use karo
+""" st.dataframe() → Interactivee (sort/scroll kar sakte ho) — isko zyada use karo
     st.table() → Simple, static — chhoti tables ke liye"""
 
 
@@ -32,4 +32,3 @@ col1, col2, col3 = st.columns(3)
 col1.metric(label="Total Users", value="1,234", delta="12%")
 col2.metric(label="Sales", value="₹45,000", delta="-5%")
 col3.metric(label="Rating", value="4.8 ⭐", delta="0.2")
-
