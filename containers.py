@@ -2,6 +2,9 @@
 
 import streamlit as st 
 
-with st.container(border = True)    # border true sew preety box ban jata hai 
-     st.write ( " ye sbb ek box ke andar hain ")
-     st.button("andar wala button ")
+with st.container(border=True):  # border=True se pretty box ban jaata hai
+    st.write("Ye sab ek box ke andar hai")
+    st.button("Andar wala button")
+
+
+
